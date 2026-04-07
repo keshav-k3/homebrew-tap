@@ -1,6 +1,6 @@
 cask "pokebar" do
-  version "1.0.1"
-  sha256 "48929d05e0901ba54d39cdaddafa748490ede819233640d4a6327b4f206e6860"
+  version "1.0.2"
+  sha256 "5464f03c12fea532ed594ca35bbee9bf34ffce4900ba13a3dfb3a80f985ddd67"
 
   url "https://github.com/keshav-k3/PokeBar/releases/download/v#{version}/PokeBar.dmg",
       verified: "github.com/keshav-k3/"
