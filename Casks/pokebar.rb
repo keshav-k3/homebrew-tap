@@ -1,6 +1,8 @@
 cask "pokebar" do
-  version "2.0.1"
-  sha256 "b6493d6bbbdb1e40b4f56e93e80bc96d54f85b618f09d3bdbf9e8cd4fafd7241"
+  version "2.1.0"
+  # After attaching PokeBar.dmg to GitHub release v2.1.0, replace :no_check with:
+  #   curl -sL "https://github.com/keshav-k3/PokeBar/releases/download/v2.1.0/PokeBar.dmg" | shasum -a 256
+  sha256 :no_check
 
   url "https://github.com/keshav-k3/PokeBar/releases/download/v#{version}/PokeBar.dmg",
       verified: "github.com/keshav-k3/"
