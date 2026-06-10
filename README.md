@@ -15,3 +15,4 @@ brew install --cask keshav-k3/tap/<name>
 ## Casks
 
 - `pokebar` — Pokémon-themed macOS menu bar system monitor
+- `watchtower` — macOS menu bar monitor for Codex, Cursor, Claude, and Gemini usage
