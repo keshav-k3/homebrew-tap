@@ -1,10 +1,10 @@
 cask "watchtower" do
-  version "0.1.0"
+  version "0.6.27"
   sha256 :no_check
 
-  url "https://github.com/keshav-k3/watchtower/releases/download/v#{version}/Watchtower-macos-universal-#{version}.zip"
+  url "https://github.com/keshav-k3/watchtower/releases/download/v#{version}/Watchtower.app.tar.gz"
   name "Watchtower"
-  desc "Monitor Codex, Cursor, Claude, and Gemini usage from the menu bar"
+  desc "Monitor AI coding subscription usage from the menu bar"
   homepage "https://github.com/keshav-k3/watchtower"
 
   depends_on macos: :sonoma
