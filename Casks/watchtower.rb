@@ -2,7 +2,8 @@ cask "watchtower" do
   version "0.6.27"
   sha256 :no_check
 
-  url "https://github.com/keshav-k3/watchtower/releases/download/v#{version}/Watchtower.app.tar.gz"
+  url "https://github.com/keshav-k3/watchtower/releases/download/v#{version}/Watchtower.app.tar.gz",
+      verified: "github.com/keshav-k3/"
   name "Watchtower"
   desc "Monitor AI coding subscription usage from the menu bar"
   homepage "https://github.com/keshav-k3/watchtower"
