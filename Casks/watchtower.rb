@@ -1,5 +1,5 @@
 cask "watchtower" do
-  version "0.6.30"
+  version "0.6.31"
   sha256 :no_check
 
   url "https://github.com/keshav-k3/watchtower/releases/download/v#{version}/Watchtower.app.tar.gz",
