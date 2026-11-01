@@ -1,9 +1,9 @@
 cask "watchtower" do
   arch arm: "aarch64", intel: "x64"
 
-  version "1.0.2"
-  sha256 arm:   "7adbbf7a177a7e1d8b9caee9ba9ce5a4362afbb77599ddce9fd0a8199edaa04d",
-         intel: "b10a50486af8a272ae364b523852901c92f6d261bd6477f59002f3269d84bf2d"
+  version "1.0.4"
+  sha256 arm:   "752699e28a50c27389a8ca29ddf90e762c95c2e565a349cc6db312bd75227248",
+         intel: "5e9a58ef6c52864a732f7d0e978dc9e55916c346298ec2be429d61284b207cde"
 
   url "https://github.com/keshav-k3/watchtower/releases/download/v#{version}/Watchtower_#{arch}.app.tar.gz",
       verified: "github.com/keshav-k3/"
